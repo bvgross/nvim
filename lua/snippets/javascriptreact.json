@@ -1,0 +1,36 @@
+{
+  "index react": {
+    "prefix": "index react",
+    "body": [
+      "import React from \"react\";",
+      "import ReactDOM from \"react-dom/client\";",
+      "import App from \"./App\";",
+      "\n",
+      "const root = ReactDOM.createRoot(document.getElementById(\"root\"));",
+      "root.render(",
+      "    <App />",
+      ");"
+    ],
+    "description": "Template de index pro react"
+  },
+  "component function": {
+    "prefix": "component function",
+    "body": [
+      "function $1() {",
+      "    return (",
+      "        $2",
+      "    );",
+      "};",
+      "",
+      "export default $1;"
+    ],
+    "description": ""
+  },
+  "console.log": {
+    "prefix": "log",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "console.log"
+  }
+}

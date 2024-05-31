@@ -1,0 +1,40 @@
+{
+  "Template Inicial": {
+    "prefix": "template1",
+    "body": [
+      "#include <iostream>",
+      "using namespace std;",
+      "",
+      "int main(){",
+      "\tcout << \"My Template\" << endl;",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Inicio de tudo"
+  },
+  "Conditional Operator": {
+    "prefix": "conditionalOp",
+    "body": ["(($1) ? $2 : $3)"],
+    "description": "Default conditional operator"
+  },
+  "For Loop": {
+    "prefix": "forLoop",
+    "body": ["for ($1{$2}; $3; $4)", "{", "\t$5", "};"],
+    "description": "Default For Loop"
+  },
+  "Range For Loop": {
+    "prefix": "rangeForLoop",
+    "body": ["for (auto $1 : $2)", "{", "\t$3", "};"],
+    "description": "Default Range Based For Loop"
+  },
+  "While Loop": {
+    "prefix": "whileLoop",
+    "body": ["while ($1)", "{", "\t$2", "};"],
+    "description": "Default Range Based For Loop"
+  },
+  "Do While Loop": {
+    "prefix": "doWhileLoop",
+    "body": ["do", "{", "\t$1", "} while ($2);"],
+    "description": "Default Range Based For Loop"
+  }
+}

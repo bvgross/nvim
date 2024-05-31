@@ -1,0 +1,44 @@
+{
+  "Teste Codigo": {
+    "prefix": "templateTesteJS",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "<head>",
+      "\t<meta charset=\"UTF-8\" />",
+      "\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE-edge\" />",
+      "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "\t<title>Testes JS</title>",
+      "\t<script src=\"$1\" defer></script>",
+      "</head>",
+      "<body>",
+      "\t<h1>Testes de codigo</h1>",
+      "</body>",
+      "</html>"
+    ],
+    "description": "Teste de js no browser"
+  },
+  "React": {
+    "prefix": "react",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html lang=\"en\">",
+      "",
+      "<head>",
+      "  <meta charset=\"UTF-8\" />",
+      "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE-edge\" />",
+      "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+      "  <link rel=\"stylesheet\" href=\"src/style.css\">",
+      "  <title>$1</title>",
+      "</head>",
+      "",
+      "<body>",
+      "  <div id=\"root\"></div>",
+      "  <script type=\"module\" src=\"/src/index.jsx\"></script>",
+      "</body>",
+      "",
+      "</html>"
+    ],
+    "description": "Template padrão incial React"
+  }
+}

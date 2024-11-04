@@ -3,7 +3,6 @@
 
 ---@type LazySpec
 return {
-
   {
     "catppuccin/nvim",
     name = "catppuccin",
@@ -13,6 +12,19 @@ return {
     "elkowar/yuck.vim",
     lazy = false,
   },
+  {
+    "ellisonleao/gruvbox.nvim", priority = 1000 , opts = ...,
+    config = function(plugin, opts)
+      require("gruvbox").setup({
+        contrast = "hard", -- can be "hard", "soft" or empty string
+      })
+    end,
+  },
+    {
+    "yorik1984/newpaper.nvim",
+    priority = 1000,
+  },
+
 
   -- == Examples of Adding Plugins ==
 

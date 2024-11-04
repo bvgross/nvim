@@ -25,7 +25,7 @@ return {
     -- vim options can be configured here
     options = {
       opt = { -- vim.opt.<key>
-        background = "dark",
+        background = "light",
         colorcolumn = "80", -- sets vim.opt.colorcolumn to 80
         number = true, -- sets vim.opt.number
         relativenumber = true, -- sets vim.opt.relativenumber

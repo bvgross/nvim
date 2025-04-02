@@ -9,6 +9,16 @@ return {
     priority = 1000,
   },
   {
+    "bvgross/neovim-ayu-adapted",
+    name = "ayu",
+    priority = 1000,
+    config = function(plugin, opts)
+      require('ayu').setup({
+        mirage = true,
+      })
+    end,
+  },
+  {
     "elkowar/yuck.vim",
     lazy = false,
   },

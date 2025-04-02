@@ -27,6 +27,7 @@ return {
       opt = { -- vim.opt.<key>
         background = "dark",
         colorcolumn = "80", -- sets vim.opt.colorcolumn to 80
+        clipboard = "unnamedplus",
         number = true, -- sets vim.opt.number
         relativenumber = true, -- sets vim.opt.relativenumber
         spell = false, -- sets vim.opt.spell

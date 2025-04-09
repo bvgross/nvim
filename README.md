@@ -1,1 +1,1 @@
-# My AstroNvim Config
+# My neovim config
